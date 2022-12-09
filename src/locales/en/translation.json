@@ -1,0 +1,13 @@
+{
+  "from": "From",
+  "home": "Home",
+  "history": "History",
+  "asset": "Asset",
+  "recipient": "Recipient",
+  "selectchain": "Select From Chain",
+  "selecttochain": "Select to Chain",
+  "amount": "Amount",
+  "balance": "Balance",
+  "connectwallet": "Connect to Wallet",
+  "docs": "Docs"
+}

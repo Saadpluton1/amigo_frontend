@@ -1,0 +1,243 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+
+}
+@media (max-width:1390px) {
+ 
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+
+}
+@media (max-width: 375px){
+  
+}
+/* Extra Small Devices, Phones */
+@media  (max-width : 600px) {
+  .radio-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkbox{
+  margin-top: 0.5rem;
+}
+  .search-box-new input {
+    width: 100%;
+  }
+  .custom-home-btn img {
+    width: 17px;
+    height: 16px;
+}
+  .mobile-d-none{
+    display: none !important;
+    margin-left: 50px;
+  }
+  .desktop-d-none{
+    display: block !important;
+  }
+  .new-logo-section img {
+    width: 63px !important;
+  }
+  .banner-slider-main {
+    width: 100%;
+  }
+  .play-banner-box{
+    width: 100%;
+  }
+  .what-img{
+    width: 100%;
+  }
+  .genre-box-inner {
+    height: 160px;
+    max-width: 50% !important;
+    width: 50% !important;
+  }
+  .genre-list-section{
+    margin-left: 0 !important;
+  }
+  .genre-play-heading{
+    margin-top: 1rem;
+  }
+  .profile{
+    padding-left: 0 !important;
+  }
+  .boot-custom-dropdown .dropdown-toggle{
+    padding-right: 0 !important;
+  }
+  .new-player{
+    top: unset !important;
+    bottom: 0 !important;
+  }
+  .new-custom-header{
+    margin-top: 0 !important;
+  }
+  .new-player .rhap_progress-section{
+    order: 1 !important;
+  }
+  .new-player .rhap_stacked .rhap_controls-section{
+    order: 2;
+  }
+  .new-player .rhap_progress-container{
+    margin-top: 0 !important;
+  }
+  .player-setting{
+    flex-direction: column;
+  }
+  .new-player .new-player-song .name{
+    text-align: center;
+  }
+  .mobile-action-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .mobile-action-flex .mobile-width{
+    width: 33.33%;
+    text-align: center;
+  }
+  .play-song-actions .inner{
+    color: black !important;
+  }
+  .new-custom-header {
+    padding: 1rem 0.7rem !important;
+  }
+  .mobile-order-1{
+    order: 1;
+  }
+  .mobile-order-2{
+    order: 2;
+  }
+  .custom-home-btn {
+    padding: 2px 5px;
+    font-weight: 600;
+  }
+  .custom-home-btn p{
+  font-size: 14px !important;
+  }
+.new-custom-header .head-top{
+  align-items: center;
+}
+}
+@media  (max-width : 480px) {
+
+}
+
+
+/* Tablets */
+@media  (max-width : 767px) {
+ 
+}
+
+
+/* Tablets */
+@media  (max-width : 991px) {
+  .header-bottom-new{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .search-box-new .search{
+    margin-top: 0;
+  }
+  .header-bottom-new .nav-links{
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--new-bg);
+    top: 33px;
+    left: 0;
+    margin-left: 0 !important;
+    z-index: 9999;
+  }
+  .header-bottom-new ul li a{
+    margin-top: 0.5rem !important;
+    display: inline-block;
+  }
+  .new-logo-section img{
+    width: 180px;
+  }
+  .banner-slider-main{
+    margin-top: 2rem;
+  }
+  .new-section-title{
+    font-size: 25px;
+  }
+  .normal-p p span {
+    font-size: 13px !important;
+  }
+  .big-heading {
+    font-size: 50px;
+  }
+  .big-font {
+    font-size: 25px !important;
+  }
+  .genre-box-inner {
+    height: 160px;
+    max-width: 30%;
+    width: 177.84px;
+  }
+  .playlist-by-genre{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .genre-list-section{
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+
+
